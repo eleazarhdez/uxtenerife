@@ -7365,3 +7365,17 @@ body {
 .marketing-box h2 {
   text-align: center;
 }
+.marketing-box #thinking {
+  resize: both;
+  overflow: auto;
+  width: 100%;
+}
+@media (max-width: 480px) {
+  .marketing-box #thinking {
+    margin-bottom: 20px;
+    height: 250px;
+  }
+}
+.marketing-box #thinking .btn-group {
+  text-align: center;
+}

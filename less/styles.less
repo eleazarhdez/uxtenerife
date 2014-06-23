@@ -24,6 +24,23 @@ body {
   border-radius: 5px;
   h2 {text-align: center;}
 
+#thinking {
+  // Options: horizontal, vertical, both
+  resize: both;
+  // Safari fix
+  overflow: auto;
+   width: 100%;
+
+  @media (max-width: @screen-xs-min) {
+    margin-bottom: 20px;
+    height: 250px;
+
+  }
+  .btn-group{
+    text-align: center;
+  }
+}
+
   // Media queries for different behaviors of this element on different resolutions.
 /*  @media (min-width: @screen-lg-min) {
   	background-color: @orange;

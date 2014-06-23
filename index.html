@@ -11,19 +11,34 @@
   <div class="container">
     <!-- Example row of columns -->
     <div class="row">
-      <div class="col-md-6 col-md-offset-3" >
+      <div class="col-md-12 " >
         <div class="marketing-box">
           <h2>QOL</h2>
           <form role="form">
            <div class="form-group">
-             <label for="exampleInputEmail1">Email address</label>
-             <textarea  class="form-control" id="exampleInputEmail1" placeholder="que estas pensando"></textarea>
+             <textarea  class="form-control" rows=4 class="resizable" id="thinking" placeholder="¿Qué estas pensando?"></textarea>
             </div>
           </form>
-          <i class="fa fa-camera-retro fa-2x"></i> 
-           <span class="glyphicon glyphicon-map-marker"></span>
-           <span class="glyphicon-class"></span>
-
+          <!--<i class="fa fa-camera-retro fa-2x"></i> -->
+          <div class="text-center">
+            <div class="btn-group">
+              <button type="button" class="btn btn-default"><span class="glyphicon glyphicon-camera"></span></button>
+               <button type="button" class="btn btn-default"><span class="glyphicon glyphicon-map-marker"></span></button>
+               <span class="glyphicon-class"></span>
+               <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">
+               <i class="fa fa-share-alt"></i></button>
+              <ul class="dropdown-menu" role="menu">
+              <button type="button" class="btn btn-default">
+               <i class="fa fa-twitter"></i></button>
+              <button type="button" class="btn btn-default">
+               <i class="fa fa-facebook"></i></button>
+              <button type="button" class="btn btn-default">
+               <i class="fa fa-google-plus"></i></button>
+               <li class="divider"></li>
+              <li><a href="#">Otros...</a></li>
+            </ul>
+             </div>
+           </div>
         </div>
       </div>
 
@@ -32,7 +47,7 @@
     <hr>
 
     <footer>
-      <p>© Langproving 2014</p>
+      <p>© QOL Enterprise</p>
     </footer>
   </div> <!-- /container -->
 
