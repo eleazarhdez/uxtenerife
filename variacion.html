@@ -37,7 +37,7 @@
                <span class="glyphicon-class"></span>
                <button id="share-button"type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">
                <i class="fa fa-share-alt"></i></button>
-               <button id="send-button" type="button" class="btn btn-default"><span class="glyphicon glyphicon-share"></span></button>
+               <button id="send-button" type="button" class="btn btn-default">Enviar</button>
               <ul class="dropdown-menu" role="menu">
               <li><button id="twitter-button" type="button" class="btn btn-default">
                <i class="fa fa-twitter"></i></button>
@@ -76,12 +76,12 @@
       // Buttons that are going to trigger the Analytics event.
       var $mainButton = $('#camera-button'),
           $secondaryButton = $('#share-button');
-          $sendButton = $('#send-button')
+          $sendButton = $('#send-button');
 
       // Strings for the event description.
       var category = 'Main Events',
           secondaryCategory = "Share Events",
-          sendCategory = "Send category",
+          sendCategory = "Send Category",
           mainAction = 'Main Button Action',
           secondaryAction = 'Secondary Button Action',
           mainLabel = mainAction,
